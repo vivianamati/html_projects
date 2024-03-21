@@ -1,0 +1,48 @@
+h1{
+    color: aqua;
+    background-color: beige;
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: 600;
+}
+h2{
+    color: blue;
+    background-color: green;
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+h3{
+    color: red;
+    background-color: brown;
+    font-size: larger;
+    font-style: normal;
+}
+h4{
+    color: green;
+    background-color: yellow;
+    font-size: larger;
+    font-style: italic;
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+
+}
+ol{
+    color: aqua;
+}
+table{
+    color: aqua;
+    }
+    fieldset{
+        color: aqua;
+    }
+    
+}

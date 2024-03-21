@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+body{
+    background-color: aqua;
+    color: brown;
+    /* font-style: italic; */
+}
+p{
+    color: black;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line height: 40px;
+    
+}
+li{
+    font-style: italic;
+}
+

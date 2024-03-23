@@ -1,0 +1,92 @@
+header,nav{
+    color: white;
+    background-color: aqua;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    padding: 0%;
+    text-align: right;
+    list-style-type:none;
+    padding: 1px;
+    margin: 3px;
+    display:block;
+    justify-content: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    align-content: flex-end;
+    gap: 1cm;
+
+
+}
+
+
+aside{
+    /* color: rgb(187, 206, 206); 
+    /* background-color: rgb(127, 255, 127); */
+    /* color: black; */
+    /* background-color: bisque; */
+    /* margin: 10px; */
+    /* margin-top: 1px; */
+    margin-left : 200px; 
+    /* border: 40px solid black; */
+    float: right;
+}
+body{
+    /* background-image: url(dream.avif); */
+    background-color:brown;
+    margin: 0%;
+    padding: 0%;
+    /* justify-content: center; */
+}
+section{
+    color: rgb(7, 20, 6);
+    font-size: larger;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    /* line-height: 10px; */
+}
+main{
+    display: flex;
+    grid-template-columns: 400px 400px 2fr;
+    grid-gap: 3px;
+    /* display:flex ; */
+    justify-content: center;
+    flex-direction: row;
+}
+aside{
+    flex: 1;
+    padding: 10px;
+}
+section{
+    padding: 10px;
+}
+footer{
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+
+    
+}
+
+
+
+
+
+
+    
+
+
+

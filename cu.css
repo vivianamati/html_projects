@@ -1,0 +1,64 @@
+header{
+    font-style: normal;
+    font-weight: 400px;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: weight 100px;
+    color: white;
+    background-color: black;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+table{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}    
+fieldset{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color:black ;
+    font-style: oblique;
+    /* display: flex; */
+    /* justify-content: center;
+    flex-direction: row; */
+}
+/* legend{
+    font-size: larger;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

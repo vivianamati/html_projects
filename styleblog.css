@@ -1,0 +1,33 @@
+header{
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 1000;
+}
+h1{
+    color: white;
+    background-color: black;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+h2{
+    color: white;
+    background-color: black;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+p{
+    font-style: oblique;
+}
+

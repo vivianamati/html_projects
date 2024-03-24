@@ -1,12 +1,12 @@
  header,nav{
-    color: white;
-    background-color: aqua;
+    
+    background-color: white;
     font-size: xx-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: bold;
     font-weight: 700;
-    text-align: center;
-    justify-content: center;
+    text-align: right;
+    justify-content: right;
     display: flex;
 } 
 nav ul{
@@ -82,13 +82,13 @@ footer{
     font-style: oblique;
     display: flex;
      flex-direction: column;
-/* } */
-/* h1{
+}  
+ h1{
     color: white;
     background-color: black;
     text-align: center;
 
-} */
+}
 /* p{ */
     /* line-height: 10px; */
 /* } */

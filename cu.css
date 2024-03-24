@@ -27,7 +27,7 @@ table{
     background-color: black;
     font-style: oblique;
     display: flex;
-    text-align:center;
+    justify-content: center;
 }    
 fieldset{
     font-size: large;

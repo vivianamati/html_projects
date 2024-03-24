@@ -18,7 +18,7 @@ p{
     font-style: oblique;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 table{
     font-size: large;
@@ -27,8 +27,7 @@ table{
     background-color: black;
     font-style: oblique;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    text-align:center;
 }    
 fieldset{
     font-size: large;
@@ -43,7 +42,7 @@ fieldset{
 /* legend{
     font-size: larger;
 } */
-body{
+/* body{
     margin: 0px;
     padding: 0px;
 }
@@ -51,7 +50,7 @@ section{
 
 }
 
-
+ */
 
 
 

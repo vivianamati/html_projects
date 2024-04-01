@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of a Parallelogram</title>
+</head>
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    label{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    input[type="text"]{
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+ <form>
+
+        <label for="base">base:</label>
+        <input type="text" id="base">
+
+        <label for="height">height:</label>
+        <input type="text" id="height">
+
+        <button onclick="area()">Calculate area</button>
+
+    </form>
+
+    <script>
+        function area(){
+            let base =parseFloat(document.getElementById("base").value);
+            let height = parseFloat(document.getElementById("height").value);
+
+            let area = base * height;
+
+            alert("The area of the parralelogram is:"+ area);
+        }
+    </script>
+</body>
+</html>

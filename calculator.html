@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<style>
+    body{
+        background-color: burlywood;
+    }
+    
+     form{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+    } 
+     input[type="text"]{
+        font-size: larger;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        border: none; 
+        cursor: pointer;
+        margin-bottom: 10px;
+    } 
+
+</style>
+<body>
+     <h3>CALCULATE AREA AND PERIMETER OF THE RECTANGLE</h3> 
+    <form>
+        <label for="length">length:</label>
+        <input type="text" id="length">
+
+        <label for="width">width:</label>
+        <input type="text" id="width">
+
+        <button onclick="area()">Calculate area</button>
+        <button onclick="perimeter()">Calculate perimeter</button>
+    </form>
+
+    <script>
+        function area(){
+        // function perimeter(){}
+            let length =parseFloat(document.getElementById("length").value);
+            let width =parseFloat(document.getElementById("width").value);
+
+            let area = length * width;
+            // let perimeter = length*length*width*width;
+            
+            alert("The area of the rectangle is;"+area);
+            // alert("The perimeter of the rectangle is;"+perimeter);
+        }
+        function perimeter(){
+            let length =parseFloat(document.getElementById("length").value);
+            let width =parseFloat(document.getElementById("width").value);
+
+            let perimeter = length + width + length + width
+
+            alert("The perimeter of the rectangle is;"+perimeter);
+        }
+        
+
+            
+        
+    </script>
+    
+</body>
+</html>
